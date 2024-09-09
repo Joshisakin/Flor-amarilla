@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-color: #ff9a9e; } /* Rosa pastel */
+    25% { background-color: #fad0c4; } /* Melocotón pastel */
+    50% { background-color: #fbc2eb; } /* Lavanda pastel */
+    75% { background-color: #a6c1ee; } /* Azul pastel */
+    100% { background-color: #d4fc79; } /* Verde pastel */
+}
+
+#text {
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px; 
+    color: rgb(29, 23, 23); 
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    animation: pulse 1s infinite; 
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale(1.1);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
