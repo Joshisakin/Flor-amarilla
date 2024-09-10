@@ -9,27 +9,27 @@ body {
 }
 
 @keyframes backgroundAnimation {
-    0% { background-color: #3bdb3bd2; }
-    5% { background-color: #66ee57e0; }
-    10% { background-color: #91ee26e1; }
-    15% { background-color: #4dff00; }  
-    20% { background-color: #66ff00; } 
-    25% { background-color: #9fdf60de; } 
-    30% { background-color: #bfff00; } 
-    35% { background-color: #ffff00; }
-    40% { background-color: #ffdb00; }  
-    45% { background-color: #ffb700; } 
-    50% { background-color: #ff9000; }  
-    55% { background-color: #f0aa65; }   
-    60% { background-color: #ff4d00; } 
-    65% { background-color: #57e75ebd; } 
-    70% { background-color: #ff1a00; } 
-    75% { background-color: #ff0000; }
-    80% { background-color: #74ec56; }   
-    85% { background-color: #ec4cdfd2; } 
-    90% { background-color: #1f2fc7; }
-    95% { background-color: #08a8a0; } 
-    100% { background-color: #f82e2ed2; }
+    0% { background-color: #b2f2b2; }
+    5% { background-color: #99e6a3; }
+    10% { background-color: #80db80; }
+    15% { background-color: #66cc66; }
+    20% { background-color: #4db84d; }
+    25% { background-color: #3fb03f; }
+    30% { background-color: #b3e6b3; }
+    35% { background-color: #ffff99; }
+    40% { background-color: #ffdb80; }
+    45% { background-color: #ffcc66; }
+    50% { background-color: #ffb366; }
+    55% { background-color: #ff9933; }
+    60% { background-color: #ff7f00; }
+    65% { background-color: #ff6600; }
+    70% { background-color: #ff4d00; }
+    75% { background-color: #ff3333; }
+    80% { background-color: #ff1a1a; }
+    85% { background-color: #ff0000; }
+    90% { background-color: #e60000; }
+    95% { background-color: #cc0000; }
+    100% { background-color: #b30000; }
 }
 
 #text {
@@ -42,8 +42,6 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
     animation: pulse 1s infinite; 
-    border-radius: 30PX;
-    border-style: groove;
     margin: 10px;
     padding: 10px;
     animation: pulse 2s infinite alternate;
