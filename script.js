@@ -17,7 +17,7 @@ loader.load('modelo/flor.glb', function (gltf) {
     model.position.y = - (box.min.y * scale) - 3.5; 
     function animate() {
         requestAnimationFrame(animate);
-        model.rotation.y += 0.01;
+        model.rotation.y += 0.005;
         renderer.render(scene, camera);
     }
     animate();
