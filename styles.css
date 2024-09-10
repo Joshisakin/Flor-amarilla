@@ -5,15 +5,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: backgroundAnimation 10s infinite alternate;
+    animation: backgroundAnimation 40s infinite alternate;
 }
 
 @keyframes backgroundAnimation {
-    0% { background-color: #9efcffe5; } 
-    25% { background-color: #fca68ee1; } 
-    50% { background-color: #c497f8d7; } 
-    75% { background-color: #89aff1; } 
-    100% { background-color: #c1e768; } 
+    0% { background-color: #3bdb3bd2; }
+    5% { background-color: #66ee57e0; }
+    10% { background-color: #91ee26e1; }
+    15% { background-color: #4dff00; }  
+    20% { background-color: #66ff00; } 
+    25% { background-color: #9fdf60de; } 
+    30% { background-color: #bfff00; } 
+    35% { background-color: #ffff00; }
+    40% { background-color: #ffdb00; }  
+    45% { background-color: #ffb700; } 
+    50% { background-color: #ff9000; }  
+    55% { background-color: #f0aa65; }   
+    60% { background-color: #ff4d00; } 
+    65% { background-color: #57e75ebd; } 
+    70% { background-color: #ff1a00; } 
+    75% { background-color: #ff0000; }
+    80% { background-color: #74ec56; }   
+    85% { background-color: #ec4cdfd2; } 
+    90% { background-color: #1f2fc7; }
+    95% { background-color: #08a8a0; } 
+    100% { background-color: #f82e2ed2; }
 }
 
 #text {
@@ -26,10 +42,12 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
     animation: pulse 1s infinite; 
-    border-radius: 20PX;
+    border-radius: 30PX;
     border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    animation: pulse 2s infinite alternate;
 }
-
 @keyframes pulse {
     0% {
         transform: translateX(-50%) scale(1);
