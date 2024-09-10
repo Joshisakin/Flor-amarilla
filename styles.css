@@ -9,11 +9,11 @@ body {
 }
 
 @keyframes backgroundAnimation {
-    0% { background-color: #ff9ea1e5; } /* Rosa pastel */
-    25% { background-color: #fca68ee1; } /* Melocotón pastel */
-    50% { background-color: #faafe5e3; } /* Lavanda pastel */
-    75% { background-color: #a6c1ee; } /* Azul pastel */
-    100% { background-color: #d4fc79; } /* Verde pastel */
+    0% { background-color: #9efcffe5; } 
+    25% { background-color: #fca68ee1; } 
+    50% { background-color: #c497f8d7; } 
+    75% { background-color: #89aff1; } 
+    100% { background-color: #c1e768; } 
 }
 
 #text {
@@ -26,6 +26,8 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
     animation: pulse 1s infinite; 
+    border-radius: 20PX;
+    border-style: groove;
 }
 
 @keyframes pulse {
